@@ -1,4 +1,11 @@
 {
+  "name": "nextjs-prismic",
+  "version": "1.0.0",
+  "description": "next-blog-test",
+  "main": "index.js",
+  "repository": "git@github.com:pahany4/nextjs-prismic.git",
+  "author": "pavel <gaydukov@gokengu.ru>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.3",
     "next": "^12.1.4",
@@ -6,5 +13,10 @@
     "prismic-reactjs": "^1.3.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   }
 }
